@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passwor Validators</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <div>
+      <label for="Passwor">Enter Password</label>
+      <input type="password" id="password" placeholder="password here" />
+    </div>
+    <div>
+      <label for="confirmPassword">Confirm Password</label>
+      <input type="password" id="confirmPassword" placeholder="confirmpassword" />
+      <p id="message"></p>
+      <input type="button" onclick="checkPassword()" id="submit" value="Submit" />
+    </div>
+    
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>
