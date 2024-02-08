@@ -1,11 +1,4 @@
-// const mix = document.getElementById("mix");
-// mix.addEventListener("click", colormixer);
-
 function colormixer() {
-  //   alert("button pressed");
-  //   document.getElementById("output").style.backgroundColor = firstcolor;
-  //   document.getElementById("outputtext").innerText = secondcolor;
-
   const firstcolor = document.getElementById("firstcolor").value;
   const secondcolor = document.getElementById("secondcolor").value;
 
