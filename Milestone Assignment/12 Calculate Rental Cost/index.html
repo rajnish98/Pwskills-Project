@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <h1>Kabul singh car rental</h1>
+  <h1>Kabul singh Car Rental</h1>
   <div class="container">
     <div>
       <label for="cartype">Choose Car type:</label> <br>
@@ -21,8 +21,13 @@
       <label for="luxury">LUXURY</label>
     </div>
     <div>
-      <label for="days">Enter no of days</label>
+      <label for="days">Enter no of days:</label>
       <input type="number" id="days" />
+    </div>
+
+    <button id="btn" onclick="calculate()">Calculate Rent</button>
+    <div class="output">
+      The total Rent is: &#8377; <span>____________</span>
     </div>
   </div>
 </body>
