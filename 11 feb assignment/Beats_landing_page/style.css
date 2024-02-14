@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #0f0f10;
+  color: #ffffff;
+}
+img[alt=hambrger]{
+  display: none;
+}
+
+img{
+  cursor: pointer;
+}
+
+li{
+  list-style: none;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  /* cursor: pointer; */
+}
+
+.nav-right{
+  display: flex;
+  gap:30px;
+}
+
+.nav-right > ul {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-right > button {
+  padding: 7px 35px;
+  background-color: #272a2d;
+  cursor: pointer;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+img[alt="main-img"]{
+  height: 600px;
+  width: 250px;
+  position: relative;
+  top: -200px;
+}
+
+.mainright{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap:30px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+.mainright h1 {
+  font-size: 50px;
+  margin-top: -30px;
+}
+
+p {
+  font-size: 12px;
+}
+
+img[alt="onEar"]{
+  width: 300px;
+  position: relative;
+  left: 50px;
+}
+
+.add_bag {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #272a2d;
+  border-radius: 7px;
+  padding: 12px 15px;
+  width: 235px;
+  height: 50px;
+}
+
+.social-media{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 150px;
+  position: relative;
+  bottom: 50px;
+}
+
+.specs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.
