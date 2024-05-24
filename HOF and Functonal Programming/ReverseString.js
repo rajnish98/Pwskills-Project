@@ -8,7 +8,7 @@ let ReversedString = "";
 for (let i = input.length - 1; i >= 0; i--) {
   ReversedString += input[i];
 }
-setTimeout(() =>{
+setTimeout(() =>{ 
   console.log(ReversedString);
 },200);
 
